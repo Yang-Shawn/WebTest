@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="back" />
+        <module name="bean" />
+        <module name="cache" />
+        <module name="dao" />
+        <module name="service" />
+        <module name="task" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="back" options="-sourcepath F:\Workspaces\IdeaProject\web\back/src/main/java" />
+      <module name="bean" options="-sourcepath F:\Workspaces\IdeaProject\web\bean/src/main/java" />
+      <module name="cache" options="-sourcepath F:\Workspaces\IdeaProject\web\cache/src/main/java" />
+      <module name="dao" options="-sourcepath F:\Workspaces\IdeaProject\web\dao/src/main/java" />
+      <module name="service" options="-sourcepath F:\Workspaces\IdeaProject\web\service/src/main/java" />
+      <module name="task" options="-sourcepath F:\Workspaces\IdeaProject\web\task/src/main/java" />
+      <module name="web" options="" />
+    </option>
+  </component>
+</project>
